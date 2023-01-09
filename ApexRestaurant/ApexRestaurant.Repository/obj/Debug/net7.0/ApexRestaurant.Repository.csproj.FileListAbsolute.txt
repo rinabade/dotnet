@@ -1,0 +1,12 @@
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.csproj.AssemblyReference.cache
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.AssemblyInfoInputs.cache
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.AssemblyInfo.cs
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.csproj.CoreCompileInputs.cache
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.deps.json
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.dll
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.pdb
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.dll
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\refint\ApexRestaurant.Repository.dll
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.pdb
+D:\dotnet\ApexRestaurant\ApexRestaurant.Repository\obj\Debug\net7.0\ref\ApexRestaurant.Repository.dll
