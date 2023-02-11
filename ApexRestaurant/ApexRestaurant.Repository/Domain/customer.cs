@@ -1,6 +1,9 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace ApexRestaurant.Repository.Domain
+namespace Apexrestaurant.Repository.Domain
 {
     public class Customer
     {
@@ -25,7 +28,7 @@ namespace ApexRestaurant.Repository.Domain
         public DateTime CreatedOn { get; set; }
 
         public string UpdatedBy { get; set; }
-
+        
         public DateTime UpdatedOn { get; set; }
 
     }

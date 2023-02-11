@@ -1,9 +1,12 @@
-using ApexRestaurant.Repository.Domain;
-
-namespace ApexRestaurant.Services.SCustomer
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Apexrestaurant.Repository.Domain;
+namespace Apexrestaurant.Services.SCustomer
 {
-    public interface ICustomerService : IGenericService<Customer>
+    public interface ICustomerService : IGenericServices<Customer> 
     {
-
+        
     }
 }

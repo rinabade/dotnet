@@ -1,21 +1,21 @@
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using ApexRestaurant.Repository.RCustomer;
+using Microsoft.SqlServer;
+using Microsoft.EntityFrameworkCore;
+using Apexrestaurant.Repository.RCustomer;
 
-namespace ApexRestaurant.Repository
+
+namespace Apexrestaurant.Repository
 {
-    public static class RepositoryModule
+    public class RepositoryModule
     {
         public static void Register(IServiceCollection services, string connection, string migrationsAssembly)
         {
-            services.AddDbContext<RestaurantContext>(options => options.UseSqlServer(connection, builder => builder.MigrationsAssembly(migrationsAssembly)));
-            services.AddTransient<ICustomerRepository, CustomerRepository>();
-            // services.AddTransient<IMenuRepository, MenuRepository>();
-            // services.AddTransient<IMenu_ItemsRepository, Menu_ItemsRepository>();
-            // services.AddTransient<IMealsRepository, MealsRepository>();
-            // services.AddTransient<IStaffRepository, StaffRepository>();
-            // services.AddTransient<IMeal_DishesRepository, Meal_DishesRepository>();
-            // services.AddTransient<IRef_Staff_RolesRepository, Ref_Staff_RolesRepository>();
+            services.AddDbContext<RestaurantContext>(options => options.UseMySQL(connection, builder => builder.MigrationsAssembly(migrationsAssembly)));
+            services.AddTransient<ICustomerRepository, CustomerRepository>();//
         }
     }
 }
