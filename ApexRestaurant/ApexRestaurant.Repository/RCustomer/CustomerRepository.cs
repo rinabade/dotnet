@@ -12,4 +12,5 @@ namespace Apexrestaurant.Repository.RCustomer
             DbContext = dbContext;
         }
     }
+    
 }

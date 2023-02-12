@@ -14,7 +14,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
 
-
 namespace Apexrestaurant.Api
 {
     public class Startup
@@ -57,4 +56,5 @@ namespace Apexrestaurant.Api
             app.UseMvc();
         }
     }
+    
 }
