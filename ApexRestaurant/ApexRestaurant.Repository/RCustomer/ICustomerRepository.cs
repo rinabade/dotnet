@@ -7,7 +7,7 @@ using Apexrestaurant.Repository.Domain;
 namespace Apexrestaurant.Repository.RCustomer
 {
     public interface ICustomerRepository : IGenericRepository<Customer>
-    {
-        
+    {        
     }
+    
 }

@@ -7,7 +7,6 @@ namespace ApexRestaurant.Repository
 {
     public interface IGenericRepository<T>
     {
-
         T Get(int id);
 
         IQueryable<T> Query();
@@ -19,4 +18,5 @@ namespace ApexRestaurant.Repository
         void Delete(T entity);
 
     }
+    
 }

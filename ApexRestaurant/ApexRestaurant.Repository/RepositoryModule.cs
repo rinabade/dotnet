@@ -7,7 +7,6 @@ using Microsoft.SqlServer;
 using Microsoft.EntityFrameworkCore;
 using Apexrestaurant.Repository.RCustomer;
 
-
 namespace Apexrestaurant.Repository
 {
     public class RepositoryModule
@@ -18,4 +17,5 @@ namespace Apexrestaurant.Repository
             services.AddTransient<ICustomerRepository, CustomerRepository>();//
         }
     }
+    
 }

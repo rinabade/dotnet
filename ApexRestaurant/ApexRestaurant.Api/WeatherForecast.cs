@@ -1,5 +1,6 @@
 namespace ApexRestaurant.Api_;
 
+
 public class WeatherForecast
 {
     public DateOnly Date { get; set; }
@@ -10,3 +11,4 @@ public class WeatherForecast
 
     public string? Summary { get; set; }
 }
+
