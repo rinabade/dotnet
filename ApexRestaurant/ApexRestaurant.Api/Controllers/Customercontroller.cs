@@ -57,25 +57,7 @@ namespace Apexrestaurant.Api.Controllers
             return Ok();
         }
         
-        // [HttpGet]
-        // public ActionResult<IEnumerable<string>> Get()
-        // {
-        //     List<string> values =  new List<string>();
-        //     using(var connection=new MySqlConnection(_connectionString))
-        //     {
-        //         connection.Open();
-        //         using (var command  = new MySqlCommand("SELECT * FROM Customers",connection))
-        //         using (var reader = command.ExecuteReader())
-        //         {
-        //             while(reader.Read())
-        //             {
-        //                 values.Add(reader["value"].ToString());
-        //             }
-        //         }
-
-        //     }
-        //     return values;
-        // }
+        
     }
 
 }
