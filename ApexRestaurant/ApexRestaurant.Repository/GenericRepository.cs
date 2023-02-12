@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace Apexrestaurant.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class, new()
