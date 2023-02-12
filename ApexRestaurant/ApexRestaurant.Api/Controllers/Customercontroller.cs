@@ -42,6 +42,7 @@ namespace Apexrestaurant.Api.Controllers
             _customerService.Insert(model);
             return Ok();
         }
+        
         [HttpPut]
         [Route("")]
         public IActionResult Put([FromBody] Customer model)
