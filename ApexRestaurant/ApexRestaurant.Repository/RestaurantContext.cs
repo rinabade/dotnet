@@ -20,7 +20,5 @@ namespace ApexRestaurant.Repository
         {
             base.OnModelCreating(modelBuilder);
         }
-
     }
-
 }
