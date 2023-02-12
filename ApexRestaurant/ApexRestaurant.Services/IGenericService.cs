@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Apexrestaurant.Services
+namespace ApexRestaurant.Services
 {
-    public interface IGenericServices<T>
+    public interface IGenericService<T>
     {
         IList<T> GetAll();
 
