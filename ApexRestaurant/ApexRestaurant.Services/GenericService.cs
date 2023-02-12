@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Apexrestaurant.Repository;
+using ApexRestaurant.Repository;
 using System.Collections.Generic;
 
-namespace Apexrestaurant.Services
+namespace ApexRestaurant.Services
 {
-    public class GenericService<T> : IGenericServices<T>
+    public class GenericService<T> : IGenericService<T>
         where T : class, new()
     {
         protected GenericService(IGenericRepository<T> entityRepository)

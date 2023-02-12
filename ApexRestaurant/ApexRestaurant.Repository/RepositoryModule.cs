@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.SqlServer;
 using Microsoft.EntityFrameworkCore;
-using Apexrestaurant.Repository.RCustomer;
+using ApexRestaurant.Repository.RCustomer;
 
-namespace Apexrestaurant.Repository
+namespace ApexRestaurant.Repository
 {
     public class RepositoryModule
     {

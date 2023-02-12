@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Apexrestaurant.Services.SCustomer;
+using ApexRestaurant.Services.SCustomer;
 
 
-namespace Apexrestaurant.Services
+namespace ApexRestaurant.Services
 {
     public class ServiceModule
     {

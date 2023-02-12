@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Apexrestaurant.Repository.Domain;
+using ApexRestaurant.Repository.Domain;
 
-namespace Apexrestaurant.Services.SCustomer
+namespace ApexRestaurant.Services.SCustomer
 {
-    public interface ICustomerService : IGenericServices<Customer> 
+    public interface ICustomerService : IGenericService<T> 
     {        
     }
 }

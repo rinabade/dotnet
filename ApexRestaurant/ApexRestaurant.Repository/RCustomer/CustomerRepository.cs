@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Apexrestaurant.Repository.Domain;
+using ApexRestaurant.Repository.Domain;
 
 
-namespace Apexrestaurant.Repository.RCustomer
+namespace ApexRestaurant.Repository.RCustomer
 {
     public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {

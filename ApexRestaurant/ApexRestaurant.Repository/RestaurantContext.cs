@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Apexrestaurant.Repository.Domain;
+using ApexRestaurant.Repository.Domain;
 
-namespace Apexrestaurant.Repository
+namespace ApexRestaurant.Repository
 {
     public class RestaurantContext : DbContext
     {
