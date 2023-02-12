@@ -18,4 +18,5 @@ namespace Apexrestaurant.Services
         void Delete(T entity);
 
     }
+    
 }

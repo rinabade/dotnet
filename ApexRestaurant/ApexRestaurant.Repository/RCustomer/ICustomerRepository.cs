@@ -9,4 +9,5 @@ namespace Apexrestaurant.Repository.RCustomer
     public interface ICustomerRepository : IGenericRepository<Customer>
     {        
     }
+    
 }

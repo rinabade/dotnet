@@ -15,4 +15,5 @@ namespace Apexrestaurant.Services
             services.AddTransient<ICustomerService,CustomerService>();
         }
     }
+    
 }

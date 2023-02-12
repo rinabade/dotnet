@@ -52,9 +52,10 @@ namespace Apexrestaurant.Api
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            
             app.UseStaticFiles();
             app.UseMvc();
         }
     }
-    
+
 }

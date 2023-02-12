@@ -13,6 +13,7 @@ namespace Apexrestaurant.Api
              .UseStartup<Startup>()
              .Build();
              host.Run();
+             
          }
 
     //     public static void Main(string[] args)

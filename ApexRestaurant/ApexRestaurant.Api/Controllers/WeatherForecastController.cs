@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace ApexRestaurant.Api_.Controllers;
 
 [ApiController]
